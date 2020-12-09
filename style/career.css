@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 1000px;
+	margin:auto;
+	font-family: Times New Roman;
+	box-shadow: 0 0 9em lightblue;
+}
+header{
+	padding: 50px; 
+	text-align: center;
+	color: white;
+	background-image: url(https://cr.mbc.uz/files/content/images/optimized/dec8c3975096543032fb534cc4b256b0_80.jpg) ;
+}
+nav{
+	
+	display: flex;
+	background-color:#ABF5E1 ; 
+
+}
+nav a{
+	color: #1A32C9;
+	padding: 12px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+nav a.active{
+	font-weight: bold;
+	background-color:#F2E95E   ;
+}
+nav a:hover{
+	background-color:white ;
+	color: #1A32C9 ;
+}
+article{
+	flex:10% ;
+	background-color: #52C4F5;
+	padding:10px ;
+	color: white;
+}
+main{
+	flex:100% ;
+	background-color: lightblue ;
+	padding: 10px;
+}
+
+aside{
+	flex:30% ;
+	background-color:#F8DB38 ;
+	padding:20px ;
+	color: white;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: left;
+	
+}

@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 1000px;
+	margin:auto;
+	font-family: Times New Roman;
+	box-shadow: 0 0 9em lightblue;
+}
+header{
+	padding: 50px; 
+	text-align: center;
+	color: white;
+	background-image: url(https://cr.mbc.uz/files/content/images/optimized/dec8c3975096543032fb534cc4b256b0_80.jpg) ;
+}
+nav{
+	
+	display: flex;
+	background-color:#ABF5E1 ; 
+
+}
+nav a{
+	color: #1A32C9;
+	padding: 12px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+nav a.active{
+	font-weight: bold;
+	background-color:#F2E95E   ;
+}
+nav a:hover{
+	background-color:white ;
+	color: #1A32C9 ;
+}
+li{
+	list-style-type: none;
+}
+
+.cr{
+	padding: 100px;
+	text-align: left;
+	color: black;
+	background-image: url(../images/camb1.png);
+}
+.nest {
+	padding: 100px;
+	text-align: right;
+	color: black;
+	background-image:url(../images/nesty.jpg);
+}
+.dostlar{
+	padding: 100px;
+	text-align: left;
+	color: black;
+	background-image:url(../images/dos.jpg);
+}
+
+
+.felicita{
+	padding: 100px;
+	text-align: left;
+	color: black;
+	background-image:url(../images/felicita.jpg);
+
+}
+.mufarrah{
+	padding: 100px;
+	text-align: left;
+	color: black;
+	background-image:url(../images/mufa.png);
+}
+.green{
+	padding: 100px;
+	text-align: center;
+	color: black;
+	background-image:url(../images/green.jpg);
+}
+.amir{
+padding: 100px;
+	text-align: left;
+	color: black;
+	background-image:url(../images/timur.jpg);	
+}
+.gulsaroy{
+    padding: 100px;
+	text-align: left;
+	color: black;
+	background-image:url(../images/gul.jpg);
+}
+.kokcha{
+    padding: 100px;
+	text-align: left;
+	color: black;
+	background-image:url(../images/kok.png);
+}
+.central{
+    padding: 100px;
+	text-align: right;
+	color: black;
+	background-image:url(../images/central.jpg);
+}
+.millenium{
+	padding: 100px;
+	text-align: right;
+	color: black;
+	background-image:url(../images/millenium.jpg);
+}

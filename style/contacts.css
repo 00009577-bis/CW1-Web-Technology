@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 1000px;
+	margin:auto;
+	font-family: Times New Roman;
+	box-shadow: 0 0 9em lightblue;
+}
+header{
+	padding: 50px; 
+	text-align: center;
+	color: white;
+	background-image: url(https://cr.mbc.uz/files/content/images/optimized/dec8c3975096543032fb534cc4b256b0_80.jpg) ;
+}
+nav{
+	
+	display: flex;
+	background-color:#ABF5E1 ; 
+
+}
+nav a{
+	color: #1A32C9;
+	padding: 12px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+nav a.active{
+	font-weight: bold;
+	background-color:#F2E95E   ;
+}
+nav a:hover{
+	background-color:white ;
+	color: #1A32C9 ;
+}
+.address{
+	padding:30px ;
+    background-color:#a9f0ff ;
+    color:blue ;
+}
+.contacts{
+   padding: 30px;
+   background-color:#a9f0ff ;
+   color: blue;
+}
+.networks{
+    padding: 30px;
+    background-size: 1000px;
+    background-color:#a9f0ff ;
+    color: blue;
+}
+.instagram{
+	background-position:left;
+	background-size: 200px 200px;
+	position: relative;
+	
+}
+.facebook{
+	background-position:center;
+	background-size: 200px 200px;
+	position: relative;
+	
+}
+.telegram{
+	background-position:right;
+	background-size: 200px 200px;
+	position: relative;
+   
+}
