@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 1000px;
+	margin:auto;
+	font-family: Times New Roman;
+	box-shadow: 0 0 9em lightblue;
+}
+header{
+	padding: 50px; 
+	text-align: center;
+	color: white;
+	background-image: url(https://cr.mbc.uz/files/content/images/optimized/dec8c3975096543032fb534cc4b256b0_80.jpg) ;
+}
+nav{
+	
+	display: flex;
+	background-color:#ABF5E1 ; 
+
+}
+nav a{
+	color: #1A32C9;
+	padding: 12px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+nav a.active{
+	font-weight: bold;
+	background-color:#F2E95E   ;
+}
+nav a:hover{
+	background-color:white ;
+	color: #1A32C9 ;
+}
+article{
+	padding: 100px;
+	text-align: center;
+	color: white;
+	background-image: url(https://www.mbc.uz/files/images/optimized/opt__1600__f2a239665f7e63a959f2b5dc3a37956e_90.jpg);
+}
+.wrapper {
+	width: 100%;
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: left;
+	
+}
+	form {
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #3DC0E7;
+	border-radius: 5px;
+	margin: 10px;
+	width:300px;
+
+}
+
+form input, label, textarea, button {
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+
+
+@media screen and  (max-width: 600px) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+}
